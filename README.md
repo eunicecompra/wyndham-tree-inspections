@@ -1,13 +1,19 @@
-Welcome to your new dbt project!
+# Wyndham Tree Inspections
 
-### Using the starter project
+This project uses the publicly-available data on Wyndham Tree Inspections from [**data.gov.au**](https://data.gov.au/data/dataset/wyndham-tree-and-latest-inpection-data).
 
-Try running the following commands:
+Data models are created using [`dbt`](https://docs.getdbt.com/docs/introduction).
+
+## Development
+
+Install [dbt-cli](https://docs.getdbt.com/dbt-cli/installation).
+
+`dbt` commands:
+
 - dbt run
 - dbt test
 
-
-### Resources:
+## Resources:
 - Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
 - Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
 - Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
