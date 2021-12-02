@@ -1,0 +1,32 @@
+
+version: 2
+
+models:
+  - name: wyndham_tree_model
+    description: "Information about the trees in the Wyndham Council, Victoria, Australia"
+    columns:
+      - name: id 
+        description: "The id of the tree"
+        tests:
+          - unique
+          - not_null
+      - name: common_name
+      - name: origin
+      - name: structure
+      - name: age
+      - name: health
+      - name: useful_life_expectancy
+      - name: diameter_breast_height
+      - name: height
+      - name: canopy_width
+      - name: location
+      - name: inspection_date
+
+  - name: wyndham_native_tree_model
+    description: "Information about the native trees in the Wyndham Council, Victoria, Australia"
+    columns:
+      - name: id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
