@@ -22,7 +22,7 @@ with source_data as (
     properties.canopy_width,
     geometry as location,
     properties.inspection_date
-    from wyndham.wyndham_tree_inspections
+    from wyndham.wyndham_tree_inspections_2017
 )
 select *
 from source_data

@@ -26,7 +26,7 @@ models:
     description: "Information about the native trees in the Wyndham Council, Victoria, Australia"
     columns:
       - name: id
-        description: "The primary key for this table"
+        description: "The id of the native tree"
         tests:
           - unique
           - not_null
